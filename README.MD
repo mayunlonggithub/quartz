@@ -8,8 +8,7 @@
  访问localhost:8080/shutDownJob/{jobId} 停止特定的任务
  
  
- 
-3.在你启动该应用之前:
+ 3.在你启动该应用之前:
  请准备JoB的原数据表：job_entity.sql
  请准备Quartz的元数据表 : quartz_innodb.sql
              
