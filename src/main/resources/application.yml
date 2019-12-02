@@ -1,0 +1,23 @@
+quartz:
+  enabled: true
+server:
+  port: 8080
+spring:
+  application:
+    name: Spring-Quartz-Scheduler                                       #Quartz调度中心
+  datasource:
+    url: jdbc:mysql://localhost:3306/quartz
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
+    tomcat:
+      initialSize: 20
+      maxActive: 100
+      maxIdle: 100
+      minIdle: 20
+      maxWait: 10000
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+  jpa:
+      show-sql: true
